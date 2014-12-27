@@ -1,0 +1,3 @@
+[submodule "MacBookProNetBeans"]
+	path = MacBookProNetBeans
+	url = git@github.com:KungFuLucky7/MacBookProNetBeans.git
