@@ -1,0 +1,16 @@
+<html>
+<head> 
+<script type="text/javascript">
+ function factorial(f,n) { l=1; for(i=1;i<=n;i++) l=l*i; f.p.value=l; } 
+</script>
+</head>
+<body>
+<h1>Computing Factorials</h1> 
+<form> number:
+<input type="text" name="t"></br> 
+<input type="button" value="submit" onClick="factorial(this.form,t.value)">
+</br> result:
+<input type="text" name="p"></br> 
+</form> 
+</body> 
+</html>

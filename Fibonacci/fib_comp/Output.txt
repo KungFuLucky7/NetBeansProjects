@@ -1,0 +1,10 @@
+Please enter a number for the Nth term in the Fibonacci Sequence
+>> 35
+For the iteractive approach:
+n: 35	fib_iter(35): 9227465
+# of function calls: 1
+
+
+For the recursive approach:
+n: 35	fib_recur(35): 9227465
+# of function calls: 29860703

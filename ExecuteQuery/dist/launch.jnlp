@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>ExecuteQuery</title>
+        <vendor>Terry Wong</vendor>
+        <homepage href=""/>
+        <description>ExecuteQuery</description>
+        <description kind="short">ExecuteQuery</description>
+    <offline-allowed/>
+</information>
+    <update check="background"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se version="1.7+"/>
+        <jar href="ExecuteQuery.jar" main="true"/>
+    <jar href="lib/mysql-connector-java-5.1.23-bin.jar"/>
+</resources>
+    <application-desc main-class="executequery.ExecuteQueryWeb">
+    </application-desc>
+</jnlp>

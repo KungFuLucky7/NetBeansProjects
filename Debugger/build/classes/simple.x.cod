@@ -1,0 +1,31 @@
+GOTO start<<1>>
+LABEL Read
+LINE -1
+FUNCTION Read -1 -1
+READ
+RETURN 
+LABEL Write
+LINE -1
+FUNCTION Write -1 -1
+LOAD 0 dummyFormal
+WRITE
+RETURN 
+LABEL start<<1>>
+LINE 1
+FUNCTION main 1 4
+LIT 0 i
+LIT 0 j
+LINE 2
+LOAD 0 i
+LOAD 1 j
+BOP +
+LIT 7
+BOP +
+STORE 0 i
+LINE 3
+LOAD 0 i
+ARGS 1
+CALL Write
+STORE 1 j
+POP 2
+HALT

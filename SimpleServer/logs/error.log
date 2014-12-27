@@ -1,0 +1,146 @@
+Starting the Apache2.2 service
+The Apache2.2 service is running.
+rmine the server's fully qualified domain name, using 10.0.0.8 for ServerName
+[Wed Jan 25 20:07:43 2012] [notice] Apache/2.2.21 (Win32) configured -- resuming normal operations
+[Wed Jan 25 20:07:43 2012] [notice] Server built: Sep  9 2011 10:26:10
+[Wed Jan 25 20:07:44 2012] [notice] Parent: Created child process 6436
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.0.0.8 for ServerName
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.0.0.8 for ServerName
+[Wed Jan 25 20:07:44 2012] [notice] Child 6436: Child process is running
+[Wed Jan 25 20:07:44 2012] [notice] Child 6436: Acquired the start mutex.
+[Wed Jan 25 20:07:44 2012] [notice] Child 6436: Starting 64 worker threads.
+[Wed Jan 25 20:07:44 2012] [notice] Child 6436: Starting thread to listen on port 80.
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.0.0.8 for ServerName
+[Thu Jan 26 21:26:10 2012] [warn] pid file C:/Program Files/Apache Software Foundation/Apache2.2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jan 26 21:26:10 2012] [notice] Apache/2.2.21 (Win32) configured -- resuming normal operations
+[Thu Jan 26 21:26:10 2012] [notice] Server built: Sep  9 2011 10:26:10
+[Thu Jan 26 21:26:10 2012] [notice] Parent: Created child process 2200
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.0.0.8 for ServerName
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.0.0.8 for ServerName
+[Thu Jan 26 21:26:12 2012] [notice] Child 2200: Child process is running
+[Thu Jan 26 21:26:12 2012] [notice] Child 2200: Acquired the start mutex.
+[Thu Jan 26 21:26:12 2012] [notice] Child 2200: Starting 64 worker threads.
+[Thu Jan 26 21:26:12 2012] [notice] Child 2200: Starting thread to listen on port 80.
+[Fri Jan 27 09:14:35 2012] [warn] pid file C:/Program Files/Apache Software Foundation/Apache2.2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jan 27 09:14:35 2012] [notice] Apache/2.2.21 (Win32) configured -- resuming normal operations
+[Fri Jan 27 09:14:35 2012] [notice] Server built: Sep  9 2011 10:26:10
+[Fri Jan 27 09:14:35 2012] [notice] Parent: Created child process 2112
+[Fri Jan 27 09:14:36 2012] [notice] Child 2112: Child process is running
+[Fri Jan 27 09:14:36 2012] [notice] Child 2112: Acquired the start mutex.
+[Fri Jan 27 09:14:36 2012] [notice] Child 2112: Starting 64 worker threads.
+[Fri Jan 27 09:14:37 2012] [notice] Child 2112: Starting thread to listen on port 80.
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.0.0.8 for ServerName
+[Sun Jan 29 00:34:02 2012] [warn] pid file C:/Program Files/Apache Software Foundation/Apache2.2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jan 29 00:34:02 2012] [notice] Apache/2.2.21 (Win32) configured -- resuming normal operations
+[Sun Jan 29 00:34:02 2012] [notice] Server built: Sep  9 2011 10:26:10
+[Sun Jan 29 00:34:02 2012] [notice] Parent: Created child process 2112
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.0.0.8 for ServerName
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.0.0.8 for ServerName
+[Sun Jan 29 00:34:02 2012] [notice] Child 2112: Child process is running
+[Sun Jan 29 00:34:03 2012] [notice] Child 2112: Acquired the start mutex.
+[Sun Jan 29 00:34:03 2012] [notice] Child 2112: Starting 64 worker threads.
+[Sun Jan 29 00:34:03 2012] [notice] Child 2112: Starting thread to listen on port 80.
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.0.0.8 for ServerName
+[Sun Jan 29 17:20:51 2012] [warn] pid file C:/Program Files/Apache Software Foundation/Apache2.2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jan 29 17:20:51 2012] [notice] Apache/2.2.21 (Win32) configured -- resuming normal operations
+[Sun Jan 29 17:20:51 2012] [notice] Server built: Sep  9 2011 10:26:10
+[Sun Jan 29 17:20:51 2012] [notice] Parent: Created child process 1816
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.0.0.8 for ServerName
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.0.0.8 for ServerName
+[Sun Jan 29 17:20:52 2012] [notice] Child 1816: Child process is running
+[Sun Jan 29 17:20:52 2012] [notice] Child 1816: Acquired the start mutex.
+[Sun Jan 29 17:20:52 2012] [notice] Child 1816: Starting 64 worker threads.
+[Sun Jan 29 17:20:52 2012] [notice] Child 1816: Starting thread to listen on port 80.
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.0.0.8 for ServerName
+[Sun Jan 29 18:02:11 2012] [warn] pid file C:/Program Files/Apache Software Foundation/Apache2.2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jan 29 18:02:11 2012] [notice] Apache/2.2.21 (Win32) configured -- resuming normal operations
+[Sun Jan 29 18:02:11 2012] [notice] Server built: Sep  9 2011 10:26:10
+[Sun Jan 29 18:02:12 2012] [notice] Parent: Created child process 2128
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.0.0.8 for ServerName
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.0.0.8 for ServerName
+[Sun Jan 29 18:02:13 2012] [notice] Child 2128: Child process is running
+[Sun Jan 29 18:02:13 2012] [notice] Child 2128: Acquired the start mutex.
+[Sun Jan 29 18:02:13 2012] [notice] Child 2128: Starting 64 worker threads.
+[Sun Jan 29 18:02:13 2012] [notice] Child 2128: Starting thread to listen on port 80.
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName
+[Mon Jan 30 09:07:39 2012] [warn] pid file C:/Program Files/Apache Software Foundation/Apache2.2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jan 30 09:07:39 2012] [notice] Apache/2.2.21 (Win32) configured -- resuming normal operations
+[Mon Jan 30 09:07:39 2012] [notice] Server built: Sep  9 2011 10:26:10
+[Mon Jan 30 09:07:39 2012] [notice] Parent: Created child process 1792
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName
+[Mon Jan 30 09:07:40 2012] [notice] Child 1792: Child process is running
+[Mon Jan 30 09:07:40 2012] [notice] Child 1792: Acquired the start mutex.
+[Mon Jan 30 09:07:40 2012] [notice] Child 1792: Starting 64 worker threads.
+[Mon Jan 30 09:07:40 2012] [notice] Child 1792: Starting thread to listen on port 80.
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName
+[Wed Feb 01 10:06:12 2012] [warn] pid file C:/Program Files/Apache Software Foundation/Apache2.2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Feb 01 10:06:12 2012] [notice] Apache/2.2.21 (Win32) configured -- resuming normal operations
+[Wed Feb 01 10:06:12 2012] [notice] Server built: Sep  9 2011 10:26:10
+[Wed Feb 01 10:06:12 2012] [notice] Parent: Created child process 1544
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName
+[Wed Feb 01 10:06:13 2012] [notice] Child 1544: Child process is running
+[Wed Feb 01 10:06:14 2012] [notice] Child 1544: Acquired the start mutex.
+[Wed Feb 01 10:06:14 2012] [notice] Child 1544: Starting 64 worker threads.
+[Wed Feb 01 10:06:14 2012] [notice] Child 1544: Starting thread to listen on port 80.
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 169.254.11.208 for ServerName
+[Thu Feb 02 10:51:42 2012] [warn] pid file C:/Program Files/Apache Software Foundation/Apache2.2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Feb 02 10:51:42 2012] [notice] Apache/2.2.21 (Win32) configured -- resuming normal operations
+[Thu Feb 02 10:51:42 2012] [notice] Server built: Sep  9 2011 10:26:10
+[Thu Feb 02 10:51:42 2012] [notice] Parent: Created child process 1492
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 169.254.11.208 for ServerName
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 169.254.11.208 for ServerName
+[Thu Feb 02 10:51:42 2012] [notice] Child 1492: Child process is running
+[Thu Feb 02 10:51:42 2012] [notice] Child 1492: Acquired the start mutex.
+[Thu Feb 02 10:51:42 2012] [notice] Child 1492: Starting 64 worker threads.
+[Thu Feb 02 10:51:42 2012] [notice] Child 1492: Starting thread to listen on port 80.
+[Sat Feb 04 22:57:40 2012] [warn] pid file C:/Program Files/Apache Software Foundation/Apache2.2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 04 22:57:40 2012] [notice] Apache/2.2.21 (Win32) configured -- resuming normal operations
+[Sat Feb 04 22:57:40 2012] [notice] Server built: Sep  9 2011 10:26:10
+[Sat Feb 04 22:57:40 2012] [notice] Parent: Created child process 1924
+[Sat Feb 04 22:57:41 2012] [notice] Child 1924: Child process is running
+[Sat Feb 04 22:57:41 2012] [notice] Child 1924: Acquired the start mutex.
+[Sat Feb 04 22:57:41 2012] [notice] Child 1924: Starting 64 worker threads.
+[Sat Feb 04 22:57:41 2012] [notice] Child 1924: Starting thread to listen on port 80.
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 169.254.11.208 for ServerName
+[Mon Feb 06 09:02:49 2012] [warn] pid file C:/Program Files/Apache Software Foundation/Apache2.2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Feb 06 09:02:49 2012] [notice] Apache/2.2.21 (Win32) configured -- resuming normal operations
+[Mon Feb 06 09:02:49 2012] [notice] Server built: Sep  9 2011 10:26:10
+[Mon Feb 06 09:02:49 2012] [notice] Parent: Created child process 2056
+[Mon Feb 06 09:02:51 2012] [notice] Child 2056: Child process is running
+[Mon Feb 06 09:02:51 2012] [notice] Child 2056: Acquired the start mutex.
+[Mon Feb 06 09:02:51 2012] [notice] Child 2056: Starting 64 worker threads.
+[Mon Feb 06 09:02:51 2012] [notice] Child 2056: Starting thread to listen on port 80.
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName
+[Tue Feb 07 12:31:33 2012] [warn] pid file C:/Program Files/Apache Software Foundation/Apache2.2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Feb 07 12:31:33 2012] [notice] Apache/2.2.21 (Win32) configured -- resuming normal operations
+[Tue Feb 07 12:31:33 2012] [notice] Server built: Sep  9 2011 10:26:10
+[Tue Feb 07 12:31:33 2012] [notice] Parent: Created child process 1656
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName
+[Tue Feb 07 12:31:34 2012] [notice] Child 1656: Child process is running
+[Tue Feb 07 12:31:34 2012] [notice] Child 1656: Acquired the start mutex.
+[Tue Feb 07 12:31:34 2012] [notice] Child 1656: Starting 64 worker threads.
+[Tue Feb 07 12:31:34 2012] [notice] Child 1656: Starting thread to listen on port 80.
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName
+[Wed Feb 08 09:09:14 2012] [warn] pid file C:/Program Files/Apache Software Foundation/Apache2.2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Feb 08 09:09:14 2012] [notice] Apache/2.2.21 (Win32) configured -- resuming normal operations
+[Wed Feb 08 09:09:14 2012] [notice] Server built: Sep  9 2011 10:26:10
+[Wed Feb 08 09:09:14 2012] [notice] Parent: Created child process 1844
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName
+[Wed Feb 08 09:09:14 2012] [notice] Child 1844: Child process is running
+[Wed Feb 08 09:09:15 2012] [notice] Child 1844: Acquired the start mutex.
+[Wed Feb 08 09:09:15 2012] [notice] Child 1844: Starting 64 worker threads.
+[Wed Feb 08 09:09:15 2012] [notice] Child 1844: Starting thread to listen on port 80.
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName
+[Thu Feb 09 12:27:32 2012] [warn] pid file C:/Program Files/Apache Software Foundation/Apache2.2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Feb 09 12:27:32 2012] [notice] Apache/2.2.21 (Win32) configured -- resuming normal operations
+[Thu Feb 09 12:27:32 2012] [notice] Server built: Sep  9 2011 10:26:10
+[Thu Feb 09 12:27:32 2012] [notice] Parent: Created child process 1620
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName
+[Thu Feb 09 12:27:34 2012] [notice] Child 1620: Child process is running
+[Thu Feb 09 12:27:34 2012] [notice] Child 1620: Acquired the start mutex.
+[Thu Feb 09 12:27:34 2012] [notice] Child 1620: Starting 64 worker threads.
+[Thu Feb 09 12:27:34 2012] [notice] Child 1620: Starting thread to listen on port 80.

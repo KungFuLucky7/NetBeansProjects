@@ -1,0 +1,2 @@
+simpleserver.Base64FormatException
+simpleserver.InternalServerErrorException

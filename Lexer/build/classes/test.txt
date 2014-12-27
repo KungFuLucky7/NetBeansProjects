@@ -1,0 +1,5 @@
+program { int i int j
+  i = 2
+  j = 3
+  i = void write(j+4) 
+}

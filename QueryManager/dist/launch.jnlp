@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>QueryManager</title>
+        <vendor>Terry Wong</vendor>
+        <homepage href=""/>
+        <description>QueryManager</description>
+        <description kind="short">QueryManager</description>
+    <offline-allowed/>
+</information>
+    <update check="background"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se version="1.7+"/>
+        <jar href="QueryManager.jar" main="true"/>
+    <jar href="lib/mysql-connector-java-5.1.23-bin.jar"/>
+</resources>
+    <application-desc main-class="querymanager.QueryManagerWeb">
+    </application-desc>
+</jnlp>

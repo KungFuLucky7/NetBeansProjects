@@ -1,0 +1,294 @@
+The following gives an idea of an interaction with someone using the debugger. I will not provide an exact 
+dialogue since you are required to think about an appropriate, professional looking interaction.
+Suppose, for example, that we use a double '>' as the debugger prompt. I will use English for the 
+commands - note that you will provide appropriate command abbreviations (e.g. you might use stpovr 
+for step over). My comments are enclosed in <...>.
+Most debugger commands have responses following the command (see 'set breakpoint' commands below).
+Debugger output is enclosed in <<..>>, etc. Your debugger output should not be enclosed in <<..>>
+
+NOTE THAT WHENEVER EXECUTION STOPS DUE TO HITTING A BREAKPOINT OR AS A RESULT OF A STEP INSTRUCTION, 
+THE CURRENT FUNCTION SHOULD BE PRINTED WITH STARS AND ARROW, AS DEMONSTRATED BELOW.
+
+<start the program in debug mode; immediately provide the program listing with line numbers>
+
+****Debugging factorial.x****
+1. program {boolean j int i
+2.   int factorial(int n) {
+3.      if (n < 2) then 
+4.         { return 1 }
+5.      else 
+6.         {return n*factorial(n-1) }
+7.   }
+8.   while (1==1) {
+9.       i = write(factorial(read()))
+10.   }
+11. }
+
+
+>>?
+
+<I am using '?' as a 'help' request -
+ present an appropriate help screen to the user; list the
+ debugger commands with VERY BRIEF explanations, if appropriate
+>
+
+>>set breakpoint at line 6
+Breakpoint set: 6
+
+>>continue execution
+
+<now, we've hit line 6 so we stop, print relevant info,
+e.g. the function with line 6,and give the prompt>
+
+
+<the source code for the current function is printed with line
+numbers - use good indentation; an indicator is included to
+mark the current line, along with indicator(s) for breakpoints, e.g.
+
+2.   int factorial(int n) {
+3.      if (n < 2) then 
+4.         { return 1 }
+5.      else 
+*6.         {return n*factorial(n-1) }  <------
+7.   }
+
+note that a star is placed in the first column to indicate a
+breakpoint is set on this line; the arrow indicates the current line 
+being executed - you will need to ensure the alignment is correct (note problem in alignment
+in above source code)
+
+>>set trace on
+
+<this will cause trace information to be printed for ALL
+functions at function entry/exit as follows (you are not required
+to trace a specific function). 
+
+factorial(3)      note that the args are in parens just like the 
+                  function call
+   factorial(2)   note the indentation; the number of spaces of 
+                  indentation equals the size of the call stack 
+                  (equivalently, the size of the frame pointer stack
+                   or the size of the environment stack)
+       factorial(1)
+       exit factorial:1   note the indentation of the return 
+                          matches the call indentation
+   exit factorial: 2
+exit factorial: 6
+
+>> list breakpoints
+Breakpoints: 6
+
+>>set trace off
+
+>>clear breakpoint 6
+Breakpoint cleared: 6
+
+>>set breakpoint 3
+Breakpoint set: 3
+
+>>continue execution
+
+2.   int factorial(int n) {
+*3.      if (n < 2) then   <------
+4.         { return 1 }
+5.      else 
+6.         {return n*factorial(n-1) }
+7.   }
+
+>>display local variables
+<display the following>
+
+n: 5
+
+>>list the source code for the current function
+2.   int factorial(int n) {
+*3.      if (n < 2) then   <------
+4.         { return 1 }
+5.      else 
+6.         {return n*factorial(n-1) }
+7.   }
+
+>>step over
+2.   int factorial(int n) {
+*3.      if (n < 2) then 
+4.         { return 1 }
+5.      else 
+6.         {return n*factorial(n-1) }   <------
+7.   }
+
+>>step into
+2.   int factorial(int n) {   <------
+*3.      if (n < 2) then 
+4.         { return 1 }
+5.      else 
+6.         {return n*factorial(n-1) } 
+7.   }
+
+>>display local variables
+n: 4
+
+>>step out
+2.   int factorial(int n) { 
+*3.      if (n < 2) then 
+4.         { return 1 }
+5.      else 
+6.         {return n*factorial(n-1) }   <------
+7.   }
+
+>>display local variables
+n: 5
+
+>>Halt
+******Execution Halted*******
+
+
+--------------------------------------------------------------------------------------------------------
+
+Following is a similar sample session without comments:
+
+****Debugging factorial.x****
+
+1. program {boolean j int i
+2.   int factorial(int n) {
+3.      if (n < 2) then 
+4.         { return 1 }
+5.      else 
+6.         {return n*factorial(n-1) }
+7.   }
+8.   while (1==1) {
+9.       i = write(factorial(read()))
+10.   }
+11. }
+
+>>set breakpoint at line 3
+Breakpoint set: 3
+
+>>set breakpoint at line 6
+Breakpoint set: 6
+
+>>set breakpoint at line 9
+Breakpoint set: 9
+
+>>continue execution
+
+1. program {boolean j int i
+2.   int factorial(int n) {
+*3.      if (n < 2) then 
+4.         { return 1 }
+5.      else 
+*6.         {return n*factorial(n-1) }
+7.   }
+8.   while (1==1) {
+*9.       i = write(factorial(read()))    <--------
+10.   }
+11. }
+
+>>continue execution
+
+Input an integer: 5
+
+
+  2.   int factorial(int n) { 
+*3.      if (n < 2) then  <--------
+  4.         { return 1 }
+  5.      else 
+*6.         {return n*factorial(n-1) }   
+  7.   }
+
+>> list breakpoints
+Breakpoints: 3 6 9
+
+>>Display local variables
+n: 5
+
+>>list source
+  2.   int factorial(int n) {
+*3.      if (n < 2) then    <--------
+  4.         { return 1 }
+  5.      else 
+*6.         {return n*factorial(n-1) }
+  7.   }
+
+>>continue execution
+  2.   int factorial(int n) {
+*3.      if (n < 2) then 
+  4.         { return 1 }
+  5.      else 
+*6.         {return n*factorial(n-1) }   <--------
+  7.   }
+
+>>step into
+  2.   int factorial(int n) {      <--------
+*3.      if (n < 2) then 
+  4.         { return 1 }
+  5.      else 
+*6.         {return n*factorial(n-1) }   
+  7.   }
+
+>>display local variables
+n: 4
+
+>>step out
+  2.   int factorial(int n) {  
+*3.      if (n < 2) then 
+  4.         { return 1 }
+  5.      else 
+*6.         {return n*factorial(n-1) }    <--------
+  7.   }
+
+>>display local variables
+n: 5
+
+>>clear breakpoints 
+Breakpoints cleared: 3 6 9
+
+>>set breakpoint at line 9
+Breakpoint set: 9
+
+>>continue execution
+
+120
+
+1. program {boolean j int i
+2.   int factorial(int n) {
+3.      if (n < 2) then 
+4.         { return 1 }
+5.      else 
+6.         {return n*factorial(n-1) }
+7.   }
+8.   while (1==1) {
+*9.       i = write(factorial(read()))    <--------
+10.   }
+11. }
+
+>>set trace on
+
+>>continue execution
+
+Input an integer: 3
+
+factorial(3)      
+   factorial(2)
+       factorial(1)
+       exit factorial:1   
+   exit factorial: 2
+exit factorial: 6
+
+6
+
+1. program {boolean j int i
+2.   int factorial(int n) {
+3.      if (n < 2) then 
+4.         { return 1 }
+5.      else 
+6.         {return n*factorial(n-1) }
+7.   }
+8.   while (1==1) {
+*9.       i = write(factorial(read()))    <--------
+10.   }
+11. }
+
+>>Halt
+******Execution Halted*******
+
+

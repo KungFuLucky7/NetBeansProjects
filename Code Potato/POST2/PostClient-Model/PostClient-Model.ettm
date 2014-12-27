@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--!DOCTYPE TypeManagement 
+[
+	<!ELEMENT TypeManagement (Types?, Locations?, IrresolvableTypes?)>
+	<!ATTLIST TypeManagement projectID ID #REQUIRED>
+
+	<!ELEMENT Locations (Location*)>
+	<!ATTLIST Locations
+			nextID CDATA #IMPLIED >
+
+	<!ELEMENT Location ANY>
+	<!ATTLIST Location
+			locID ID #IMPLIED
+			href CDATA #IMPLIED
+			importProjectLoc CDATA #IMPLIED
+			importProjID CDATA #IMPLIED >
+
+	<!ELEMENT Types (Type*)>
+	<!ELEMENT Type ANY>
+	<!ATTLIST Type
+			id ID #IMPLIED
+			location IDREF #IMPLIED
+			name CDATA #IMPLIED >
+
+	<!ELEMENT IrresolvableTypes (Irresolvable*)>
+	<!ELEMENT Irresolvable ANY>
+	<!ATTLIST Irresolvable 
+		   id CDATA #IMPLIED >
+]--><TypeManagement projectID="DCE.B1657B6E-B6E1-A720-94F5-BDE1D2800A89">
+	<Locations nextID="2">
+	<Location locID="T.0" href="./PostClient-Model.etup"/><Location locID="T.1" href="../Documents/ProgrammingProjects/NetBeansProjects/POST2/StoreServer-Model/StoreServer-Model.etd"/></Locations>
+
+   <Types>
+   <Type id="DCE.97487CF9-A0A5-654F-E749-7F8840403084" location="T.0" name="Unnamed"/><Type id="DCE.DCF13D53-C98F-2B81-BCF1-E6EA453B41D0" location="T.1" name="ManagerImpl"/><Type id="DCE.52E5E418-7291-C8AB-80C4-9304CA4F1ED1" location="T.1" name="ProductReader"/><Type id="DCE.36FAB5D4-022A-F4AB-AD9A-F240C2659FEA" location="T.1" name="Manager"/><Type id="DCE.CBEFADEE-3A89-B513-F911-749B5F9ED9B0" location="T.1" name="StoreImpl"/><Type id="DCE.CC036486-CDCC-CA2C-2DE1-37AB59A219C6" location="T.1" name="Store"/><Type id="DCE.AB3AC479-386B-8208-6531-713B19443353" location="T.1" name="TransactionRecord"/></Types>
+
+	<IrresolvableTypes>
+	</IrresolvableTypes>
+
+</TypeManagement>
